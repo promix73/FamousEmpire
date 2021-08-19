@@ -16,12 +16,16 @@ video{
   margin-top: 1%;
 }
 h1{
-  font-family: cursive;
-color: deeppink;
+  font-family:'sacrament',cursive;
+color:green;
 display: inline-block;
 }
+p{
+color:green;
+margin: 0;
+}
 div{
-  width: 100%;
+  width: 0;
 }
 /*p{
   color: deeppink;
@@ -31,24 +35,22 @@ h3{
   text-align: center;
 }
 td{
-  color: #fe00ef;
+  color: darkgreen;
   text-align: center;
-  width:10%;
-  height: 10%;
+  width:2%;
+  /*height: 10%;*/
 }
 th{
  color: black;
- background-color: gray;
+ background-color: gold;
 }
 /********  CLASS   ********/
 .h12{
   text-align: center;
 }
-
 .div2{
   background-color: #e4f5f6;
-  width: 100%;
-
+  position: relative;
   width: 100%;
 }
 .imgcloud{
@@ -61,26 +63,48 @@ th{
 .imgcloud2{
   position: absolute;
   display:inline-block;
-  left: 6%;
-  top: 21%;
+  left: 5%;
+  top: 24%;
 }
 .lst{
   background-color: #fdf9f9;
+  position: relative;
+  width: 100%;
 }
+.lsttbl{
+  width: auto;
+}
+
 .pod1{
   margin-left: 2%;
-  margin-right: 2%;
-  width: 210px;
-
+  margin-right: 3%;
+  width: 150px;
+  padding-left:10px;
+ /* padding-right: 30px;*/
+}
+.pod2{
+  margin-left:2%;
+  margin-right:2%;
+  width:150px;
+  padding-left: 10px;
 }
 .sat{
   position:relative;
-   background-color: #fcfeeb;
+  /* background-color: #fcfeeb;*/
+  background-color: skyblue;
    text-align: center;
      width: 100%;
 }
+.ttab{
+  position: relative;
+  height: auto;
+  display: inline-block;
+  width: 150px;
+  padding-left: 3%;
+}
 .vid{
   background-color:#66bfbf;
+  width: auto;
 }
 .vid1{
   border-radius: 100%;
@@ -103,10 +127,11 @@ th{
 }
 #lst1{
   border-radius: 100%;
-  width:250px;
-  margin-left:3%;
+  width:180px;
+  margin-left:1%;
   margin-bottom: 1%;
   margin-top: .5%;
+  text-align: center;
 }
 #cpyrt{
   text-align: center;
