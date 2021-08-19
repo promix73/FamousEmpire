@@ -1,3 +1,10 @@
+a{
+  text-decoration: none;
+  color: #11999e;
+}
+a:hover{
+  color:gold;
+}
 body{
   /*background-color: #e4f5f7;*/
   background-color: #11ffee00;
@@ -45,6 +52,13 @@ th{
  background-color: gold;
 }
 /********  CLASS   ********/
+.cpydiv{
+  background-color: #005b96;
+  width: 100%;
+  padding-top:4px;
+  padding-bottom: 4px;
+  
+}
 .h12{
   text-align: center;
 }
@@ -65,6 +79,7 @@ th{
   display:inline-block;
   left: 5%;
   top: 24%;
+  width: 40px;
 }
 .lst{
   background-color: #fdf9f9;
@@ -134,6 +149,14 @@ th{
   text-align: center;
 }
 #cpyrt{
+ font-size: 10px;
+ color: darkgray;
+ margin-top: 3rem;
+  margin-bottom:0;
   text-align: center;
-  color: black;
+  
 }
+
+/*<a href="mailto:customer@email.com?subject=Information
+Requested&body=Here's more information. 
+http://www.website.com/info/info.pdf">*/
